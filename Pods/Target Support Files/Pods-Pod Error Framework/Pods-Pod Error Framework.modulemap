@@ -1,0 +1,6 @@
+framework module Pods_Pod_Error_Framework {
+  umbrella header "Pods-Pod Error Framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

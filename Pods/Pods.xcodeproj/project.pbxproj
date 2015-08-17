@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028F90382DB39222EF782BF413969849 /* Pods-PodErrorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F9248724C828497CBF7929362C73F7 /* Pods-PodErrorKit-dummy.m */; };
+		0A9F907BB7321833E4DAFA37F147FCE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */; };
+		0B87EECB368668F6271EF11B763E0509 /* Pods-Pod Error Framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545AE56432AE9280DB94208C997ABCE /* Pods-Pod Error Framework-dummy.m */; };
+		0CCB5C70ED4E2FE30AF51A948EFEB87D /* SwiftAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD33E84617B4B6F9C4971F51386867F /* SwiftAddressBook-dummy.m */; };
+		0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */; };
+		14540F784165EF408B022F11B45CB64E /* SwiftAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B24E8EF819D1E1A4AABCFBB6758D34A /* SwiftAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		197E9E242A78C677C7B6039CF19B1880 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C25FFDAD4123FEB1D11CEA48596CC /* SwiftAddressBookGroup.swift */; };
+		23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */; };
+		38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */; };
+		39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */; };
+		451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482C3427EBA6B91554002FF5725913A0 /* Pods-PodErrorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5009913734032CCFDD506A51D0CD66E6 /* Pods-PodErrorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D19E392DD2D09F79906EAA31F17006 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194D70FFD7DDC5FEEBAACCD374D2E5A /* SwiftAddressBookHelperMethods.swift */; };
+		5B5E212DD5FA165560A813BC1129F74D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A003CBB399FD983DA515300316D14362 /* AddressBookUI.framework */; };
+		688B2F7B69F841C497FA16700A8CEF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */; };
+		85B242F78E11744E85C8AB58A2440AFD /* Pods-Pod Error Framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1324057EBCAF970F165B1B515A89CF2 /* Pods-Pod Error Framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */; };
+		92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */; };
+		9A4C26E7F05B031DC0895518AA9B532C /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DD7ADF7513760D26DB2448076564D /* SwiftAddressBookWrapper.swift */; };
+		9D880910D54813FD9D3BF923D0136765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */; };
+		AD76B80FFFB72FFBDC9B23948684F654 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C9430E131863240D474A22F1BBD167 /* SwiftAddressBookSource.swift */; };
+		C03A469C21C5A2AEFF75599E2447C74B /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0AECABCDBA683098922C8C4E01D8C /* SwiftAddressBookDataStructures.swift */; };
+		CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64ABCE549F2E4FC3FB515E9EDFB1021 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF43533ACEB2D2E960B8AF46C131B91 /* AddressBook.framework */; };
+		E407388D52B41A53D90C8A7A20BDFB6F /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E16983F80F271BEBEAB2A89453020 /* SwiftAddressBookRecord.swift */; };
+		F6EBE63A615FBCE050E02CC163CFA093 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F603B4F2C1719C60C9EBFA4927E577 /* SwiftAddressBookPerson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D887BE80A4106C82F6400CE1B544940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A064B75A9838606659BB57FE5AC8A101;
+			remoteInfo = SVProgressHUD;
+		};
+		8F3ABE2F74F1A6570E73674E8FB69FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4476A658F156BB4B410C8930FC9BD250;
+			remoteInfo = SwiftAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027020C29F8B57FD96BA0A4BC4C46C14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05ACB36D08601DD8679F38A9A0FE698A /* Pods-PodErrorKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodErrorKit-resources.sh"; sourceTree = "<group>"; };
+		0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		12D9DE2784165506DD6E1F3CDC5A33CD /* SwiftAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		21CF68142DE0358CAFD1A0C949ADC41F /* SwiftAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2B1499C888E85699D1172EF1113868ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F49E35BEAA4C80BC68DA2F5753EED12 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		31B7F4E8E83D3E140AD36150845137EF /* Pods_Pod_Error_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_Error_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		33ECB737042E0A39155C77BA210BF04A /* Pods-Pod Error Framework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pod Error Framework-acknowledgements.plist"; sourceTree = "<group>"; };
+		3545AE56432AE9280DB94208C997ABCE /* Pods-Pod Error Framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pod Error Framework-dummy.m"; sourceTree = "<group>"; };
+		40F7F9AE15C6A2EC7364CDBAF849B801 /* SwiftAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftAddressBook.modulemap; sourceTree = "<group>"; };
+		416E16983F80F271BEBEAB2A89453020 /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookRecord.swift; path = Pod/Classes/SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
+		41752CAACA4AE7111E531D9200CBA553 /* SwiftAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAddressBook.xcconfig; sourceTree = "<group>"; };
+		46CA0CD1AB82017314A6B468260922BB /* Pods-Pod Error Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod Error Framework.release.xcconfig"; sourceTree = "<group>"; };
+		4DF43533ACEB2D2E960B8AF46C131B91 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		4FE16303926CB8E65952404CB0E60AF2 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5009913734032CCFDD506A51D0CD66E6 /* Pods-PodErrorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodErrorKit-umbrella.h"; sourceTree = "<group>"; };
+		5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		52D8A1BFE48862C4820556DD24251284 /* Pods-PodErrorKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodErrorKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		52E74B77A84A70EA605218B33F8DF46D /* Pods-Pod Error Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod Error Framework.debug.xcconfig"; sourceTree = "<group>"; };
+		5DD554C340EA719EFA5AD8375A88251B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670957ECAD9183F4CB4F5DAA254347FF /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		6C716724226EEA0FB4C038E9D1ED3B8B /* Pods-PodErrorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodErrorKit.debug.xcconfig"; sourceTree = "<group>"; };
+		6D71919F9E824CFC82073A0DE1AEDB20 /* Pods-PodErrorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodErrorKit.release.xcconfig"; sourceTree = "<group>"; };
+		6DD33E84617B4B6F9C4971F51386867F /* SwiftAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAddressBook-dummy.m"; sourceTree = "<group>"; };
+		806B3457EA7C9A9C96FBC27F01E0AE4A /* Pods-Pod Error Framework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod Error Framework-resources.sh"; sourceTree = "<group>"; };
+		9194D70FFD7DDC5FEEBAACCD374D2E5A /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookHelperMethods.swift; path = Pod/Classes/SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
+		9B24E8EF819D1E1A4AABCFBB6758D34A /* SwiftAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		A003CBB399FD983DA515300316D14362 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		A1324057EBCAF970F165B1B515A89CF2 /* Pods-Pod Error Framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pod Error Framework-umbrella.h"; sourceTree = "<group>"; };
+		A18A44B78823B90651A68523D7B3F61A /* Pods_PodErrorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodErrorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A61BAC9994B22BF4F551CC0E73739F64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C9430E131863240D474A22F1BBD167 /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookSource.swift; path = Pod/Classes/SwiftAddressBookSource.swift; sourceTree = "<group>"; };
+		B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A6079530B2D3BF1B4B3A429EBB2BBD /* Pods-Pod Error Framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pod Error Framework.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBCC6B28F655715B969B1917C858AED8 /* Pods-PodErrorKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodErrorKit-frameworks.sh"; sourceTree = "<group>"; };
+		BCE2DB72CA4BF9344A4B69B230172DFB /* Pods-Pod Error Framework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pod Error Framework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CDB0AECABCDBA683098922C8C4E01D8C /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookDataStructures.swift; path = Pod/Classes/SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
+		CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		DE3DD7ADF7513760D26DB2448076564D /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookWrapper.swift; path = Pod/Classes/SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
+		DEDD58D9C53613AD3BCF7AE07EBFB64E /* SwiftAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		E14C25FFDAD4123FEB1D11CEA48596CC /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookGroup.swift; path = Pod/Classes/SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
+		E20D28D7D97DE7305CD85E4DC3E9F36D /* Pods-Pod Error Framework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod Error Framework-frameworks.sh"; sourceTree = "<group>"; };
+		E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		E9F603B4F2C1719C60C9EBFA4927E577 /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookPerson.swift; path = Pod/Classes/SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
+		E9F9248724C828497CBF7929362C73F7 /* Pods-PodErrorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodErrorKit-dummy.m"; sourceTree = "<group>"; };
+		F553FDE2C0D8C9F66E24F2222FF05330 /* Pods-PodErrorKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodErrorKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEC67ED8B05C2831983B0B6FCE950AEE /* Pods-PodErrorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodErrorKit.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172FAFE6A675EB9C18772097B27176C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D880910D54813FD9D3BF923D0136765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470E42A54A299AB2BB8901DFF855346F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64ABCE549F2E4FC3FB515E9EDFB1021 /* AddressBook.framework in Frameworks */,
+				5B5E212DD5FA165560A813BC1129F74D /* AddressBookUI.framework in Frameworks */,
+				688B2F7B69F841C497FA16700A8CEF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC342D78BB22C35175D0770B1780726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F907BB7321833E4DAFA37F147FCE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76022887D3FA8066E886587DC6DACE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7333F7DB45582EE47B940BCD3B57A /* Foundation.framework in Frameworks */,
+				92193ADEDFAFDFC61577DF0AAC8253B9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E294F28DD1E640F2101C539BC47E6F3A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229AE63076B3F388CD653366F3E84C3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43859CC510409F9E877352B4657DA623 /* Pods-Pod Error Framework */,
+				D6847689D3503D0272869AFA2B619D3F /* Pods-PodErrorKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43859CC510409F9E877352B4657DA623 /* Pods-Pod Error Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2B1499C888E85699D1172EF1113868ED /* Info.plist */,
+				B9A6079530B2D3BF1B4B3A429EBB2BBD /* Pods-Pod Error Framework.modulemap */,
+				BCE2DB72CA4BF9344A4B69B230172DFB /* Pods-Pod Error Framework-acknowledgements.markdown */,
+				33ECB737042E0A39155C77BA210BF04A /* Pods-Pod Error Framework-acknowledgements.plist */,
+				3545AE56432AE9280DB94208C997ABCE /* Pods-Pod Error Framework-dummy.m */,
+				E20D28D7D97DE7305CD85E4DC3E9F36D /* Pods-Pod Error Framework-frameworks.sh */,
+				806B3457EA7C9A9C96FBC27F01E0AE4A /* Pods-Pod Error Framework-resources.sh */,
+				A1324057EBCAF970F165B1B515A89CF2 /* Pods-Pod Error Framework-umbrella.h */,
+				52E74B77A84A70EA605218B33F8DF46D /* Pods-Pod Error Framework.debug.xcconfig */,
+				46CA0CD1AB82017314A6B468260922BB /* Pods-Pod Error Framework.release.xcconfig */,
+			);
+			name = "Pods-Pod Error Framework";
+			path = "Target Support Files/Pods-Pod Error Framework";
+			sourceTree = "<group>";
+		};
+		55C9278B06696787CC7ADB572F449F9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61BAC9994B22BF4F551CC0E73739F64 /* Info.plist */,
+				2F49E35BEAA4C80BC68DA2F5753EED12 /* SVProgressHUD.modulemap */,
+				670957ECAD9183F4CB4F5DAA254347FF /* SVProgressHUD.xcconfig */,
+				E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */,
+				27179B7FA11C83574FAC0D1A42630A67 /* SVProgressHUD-dummy.m */,
+				4FE16303926CB8E65952404CB0E60AF2 /* SVProgressHUD-prefix.pch */,
+				CF4872AC631E92D0FC3E12DBFC7B0523 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		6A904FC0FB068041E68F5D941F019D82 /* SwiftAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				CDB0AECABCDBA683098922C8C4E01D8C /* SwiftAddressBookDataStructures.swift */,
+				E14C25FFDAD4123FEB1D11CEA48596CC /* SwiftAddressBookGroup.swift */,
+				9194D70FFD7DDC5FEEBAACCD374D2E5A /* SwiftAddressBookHelperMethods.swift */,
+				E9F603B4F2C1719C60C9EBFA4927E577 /* SwiftAddressBookPerson.swift */,
+				416E16983F80F271BEBEAB2A89453020 /* SwiftAddressBookRecord.swift */,
+				A8C9430E131863240D474A22F1BBD167 /* SwiftAddressBookSource.swift */,
+				DE3DD7ADF7513760D26DB2448076564D /* SwiftAddressBookWrapper.swift */,
+				E1590AC0506A02A5735F22B6D56F2913 /* Support Files */,
+			);
+			path = SwiftAddressBook;
+			sourceTree = "<group>";
+		};
+		6DEC6B0A87D957696CFC2DA4FFE11832 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D06DC1A49820B525E8075FB9B854E49A /* SVIndefiniteAnimatedView.h */,
+				160FAFDD01615679A73D463CAB98FD9B /* SVIndefiniteAnimatedView.m */,
+				5130A69E51586F77FF832D1282C3798F /* SVProgressHUD.h */,
+				A49D155FB7467254D0690132E4CF52A6 /* SVProgressHUD.m */,
+				E78819B26535BF8C6CDC062F12A92749 /* Resources */,
+				55C9278B06696787CC7ADB572F449F9C /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				95AEE730F3A689ED5E1E659AEB7483C0 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				229AE63076B3F388CD653366F3E84C3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95AEE730F3A689ED5E1E659AEB7483C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC6B0A87D957696CFC2DA4FFE11832 /* SVProgressHUD */,
+				6A904FC0FB068041E68F5D941F019D82 /* SwiftAddressBook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18A44B78823B90651A68523D7B3F61A /* Pods_PodErrorKit.framework */,
+				31B7F4E8E83D3E140AD36150845137EF /* Pods_Pod_Error_Framework.framework */,
+				B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */,
+				12D9DE2784165506DD6E1F3CDC5A33CD /* SwiftAddressBook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6847689D3503D0272869AFA2B619D3F /* Pods-PodErrorKit */ = {
+			isa = PBXGroup;
+			children = (
+				5DD554C340EA719EFA5AD8375A88251B /* Info.plist */,
+				FEC67ED8B05C2831983B0B6FCE950AEE /* Pods-PodErrorKit.modulemap */,
+				F553FDE2C0D8C9F66E24F2222FF05330 /* Pods-PodErrorKit-acknowledgements.markdown */,
+				52D8A1BFE48862C4820556DD24251284 /* Pods-PodErrorKit-acknowledgements.plist */,
+				E9F9248724C828497CBF7929362C73F7 /* Pods-PodErrorKit-dummy.m */,
+				BBCC6B28F655715B969B1917C858AED8 /* Pods-PodErrorKit-frameworks.sh */,
+				05ACB36D08601DD8679F38A9A0FE698A /* Pods-PodErrorKit-resources.sh */,
+				5009913734032CCFDD506A51D0CD66E6 /* Pods-PodErrorKit-umbrella.h */,
+				6C716724226EEA0FB4C038E9D1ED3B8B /* Pods-PodErrorKit.debug.xcconfig */,
+				6D71919F9E824CFC82073A0DE1AEDB20 /* Pods-PodErrorKit.release.xcconfig */,
+			);
+			name = "Pods-PodErrorKit";
+			path = "Target Support Files/Pods-PodErrorKit";
+			sourceTree = "<group>";
+		};
+		E1590AC0506A02A5735F22B6D56F2913 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				027020C29F8B57FD96BA0A4BC4C46C14 /* Info.plist */,
+				40F7F9AE15C6A2EC7364CDBAF849B801 /* SwiftAddressBook.modulemap */,
+				41752CAACA4AE7111E531D9200CBA553 /* SwiftAddressBook.xcconfig */,
+				21CF68142DE0358CAFD1A0C949ADC41F /* SwiftAddressBook-Private.xcconfig */,
+				6DD33E84617B4B6F9C4971F51386867F /* SwiftAddressBook-dummy.m */,
+				DEDD58D9C53613AD3BCF7AE07EBFB64E /* SwiftAddressBook-prefix.pch */,
+				9B24E8EF819D1E1A4AABCFBB6758D34A /* SwiftAddressBook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAddressBook";
+			sourceTree = "<group>";
+		};
+		E294F28DD1E640F2101C539BC47E6F3A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DF43533ACEB2D2E960B8AF46C131B91 /* AddressBook.framework */,
+				A003CBB399FD983DA515300316D14362 /* AddressBookUI.framework */,
+				0F4048EAA93987D1044DEAC5E5324CB6 /* Foundation.framework */,
+				C0A48C2A51E21E980080AE28105B8C03 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E78819B26535BF8C6CDC062F12A92749 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				328C5C16529970384DF08F8A97791935 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B273EABC836F2C0FAB23EE3B414FC46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14540F784165EF408B022F11B45CB64E /* SwiftAddressBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD41E72FB1A7A701F189D091220788B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482C3427EBA6B91554002FF5725913A0 /* Pods-PodErrorKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A409C81D974C10878A3E382AF000C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B242F78E11744E85C8AB58A2440AFD /* Pods-Pod Error Framework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69C45588DCE40C46174E8134C1D7382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A3C8101F4AF0B85A4D9900CB235AD /* SVIndefiniteAnimatedView.h in Headers */,
+				451570EC2532B5950ECAFBB06467C626 /* SVProgressHUD-umbrella.h in Headers */,
+				8B6CCD531C6DDACBC96F9B8755C90DCB /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4476A658F156BB4B410C8930FC9BD250 /* SwiftAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B494F5C7422E77E9DE10CA1215B9447 /* Build configuration list for PBXNativeTarget "SwiftAddressBook" */;
+			buildPhases = (
+				ABD9163DBA2892F24D421D5EA6A8E7B6 /* Sources */,
+				470E42A54A299AB2BB8901DFF855346F /* Frameworks */,
+				2B273EABC836F2C0FAB23EE3B414FC46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAddressBook;
+			productName = SwiftAddressBook;
+			productReference = 12D9DE2784165506DD6E1F3CDC5A33CD /* SwiftAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94C0CF39C8D273C8DD399D8046CF3204 /* Pods-PodErrorKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D3F25ED6D03A75411E491072FCA0FA /* Build configuration list for PBXNativeTarget "Pods-PodErrorKit" */;
+			buildPhases = (
+				B23CA240781F2647DEE18EA1692292C5 /* Sources */,
+				172FAFE6A675EB9C18772097B27176C2 /* Frameworks */,
+				2FD41E72FB1A7A701F189D091220788B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				384AB1C1C3AD6235B00C034DAA3CD8ED /* PBXTargetDependency */,
+			);
+			name = "Pods-PodErrorKit";
+			productName = "Pods-PodErrorKit";
+			productReference = A18A44B78823B90651A68523D7B3F61A /* Pods_PodErrorKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DA9CDA85F77E8257CFF0D571F9A5C8B /* Pods-Pod Error Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2A1955060BE0E48C74BE6C972FA548 /* Build configuration list for PBXNativeTarget "Pods-Pod Error Framework" */;
+			buildPhases = (
+				CEF078F07DA42B08EC80850268CE3752 /* Sources */,
+				6BC342D78BB22C35175D0770B1780726 /* Frameworks */,
+				E2A409C81D974C10878A3E382AF000C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F69A6627A99EAC3F104D341431776B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pod Error Framework";
+			productName = "Pods-Pod Error Framework";
+			productReference = 31B7F4E8E83D3E140AD36150845137EF /* Pods_Pod_Error_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				AE61CF5E10429DA9728C4B1295982CA6 /* Sources */,
+				76022887D3FA8066E886587DC6DACE17 /* Frameworks */,
+				E69C45588DCE40C46174E8134C1D7382 /* Headers */,
+				4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = B5041E49D2D85055674F5469B43E410C /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA9CDA85F77E8257CFF0D571F9A5C8B /* Pods-Pod Error Framework */,
+				94C0CF39C8D273C8DD399D8046CF3204 /* Pods-PodErrorKit */,
+				A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */,
+				4476A658F156BB4B410C8930FC9BD250 /* SwiftAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E623279ECD2F7A3EACBDF63EE6C6A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90609EF96AE1F72C5CF3B896A227779B /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD9163DBA2892F24D421D5EA6A8E7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCB5C70ED4E2FE30AF51A948EFEB87D /* SwiftAddressBook-dummy.m in Sources */,
+				C03A469C21C5A2AEFF75599E2447C74B /* SwiftAddressBookDataStructures.swift in Sources */,
+				197E9E242A78C677C7B6039CF19B1880 /* SwiftAddressBookGroup.swift in Sources */,
+				57D19E392DD2D09F79906EAA31F17006 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				F6EBE63A615FBCE050E02CC163CFA093 /* SwiftAddressBookPerson.swift in Sources */,
+				E407388D52B41A53D90C8A7A20BDFB6F /* SwiftAddressBookRecord.swift in Sources */,
+				AD76B80FFFB72FFBDC9B23948684F654 /* SwiftAddressBookSource.swift in Sources */,
+				9A4C26E7F05B031DC0895518AA9B532C /* SwiftAddressBookWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE61CF5E10429DA9728C4B1295982CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED2ABCF8D5F86C9B673707931B3906F /* SVIndefiniteAnimatedView.m in Sources */,
+				38347B569B55C922B66402C492950AD1 /* SVProgressHUD-dummy.m in Sources */,
+				39E9A8BA169A22D44FB7822E3B0F2A53 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CA240781F2647DEE18EA1692292C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028F90382DB39222EF782BF413969849 /* Pods-PodErrorKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF078F07DA42B08EC80850268CE3752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B87EECB368668F6271EF11B763E0509 /* Pods-Pod Error Framework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		384AB1C1C3AD6235B00C034DAA3CD8ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAddressBook;
+			target = 4476A658F156BB4B410C8930FC9BD250 /* SwiftAddressBook */;
+			targetProxy = 8F3ABE2F74F1A6570E73674E8FB69FAF /* PBXContainerItemProxy */;
+		};
+		4F69A6627A99EAC3F104D341431776B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = A064B75A9838606659BB57FE5AC8A101 /* SVProgressHUD */;
+			targetProxy = 2D887BE80A4106C82F6400CE1B544940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1370D253A5F49FE94541D1E507D69CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C43EFE08FB8DFE0DEF788E0DB1908C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C716724226EEA0FB4C038E9D1ED3B8B /* Pods-PodErrorKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PodErrorKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PodErrorKit/Pods-PodErrorKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PodErrorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB25E3D9E05D9CA8F4CB30B99C79F202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D7C96AB8C2B462888DA90F536F24BE /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE11BE2B004B271A435090A9DC5BE6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D71919F9E824CFC82073A0DE1AEDB20 /* Pods-PodErrorKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PodErrorKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PodErrorKit/Pods-PodErrorKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PodErrorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4EB0DD6922D1B617051CFA98C0C6CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CF68142DE0358CAFD1A0C949ADC41F /* SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.4.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAddressBook/SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAddressBook/SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAC185D27EE22DA847D97174E819EC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CA0CD1AB82017314A6B468260922BB /* Pods-Pod Error Framework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pod Error Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pod Error Framework/Pods-Pod Error Framework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pod_Error_Framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E56FF23477142D4C165A65FE79B46947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CF68142DE0358CAFD1A0C949ADC41F /* SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.4.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAddressBook/SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAddressBook/SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEBECB867CCEAD24DA66EDD3749FCAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E74B77A84A70EA605218B33F8DF46D /* Pods-Pod Error Framework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pod Error Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pod Error Framework/Pods-Pod Error Framework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pod_Error_Framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B494F5C7422E77E9DE10CA1215B9447 /* Build configuration list for PBXNativeTarget "SwiftAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EB0DD6922D1B617051CFA98C0C6CB4 /* Debug */,
+				E56FF23477142D4C165A65FE79B46947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2A1955060BE0E48C74BE6C972FA548 /* Build configuration list for PBXNativeTarget "Pods-Pod Error Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBECB867CCEAD24DA66EDD3749FCAFF /* Debug */,
+				DAC185D27EE22DA847D97174E819EC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D3F25ED6D03A75411E491072FCA0FA /* Build configuration list for PBXNativeTarget "Pods-PodErrorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C43EFE08FB8DFE0DEF788E0DB1908C7 /* Debug */,
+				BE11BE2B004B271A435090A9DC5BE6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F7D2F92F1A05935C16C7B7A80469E1 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1370D253A5F49FE94541D1E507D69CE8 /* Debug */,
+				AB25E3D9E05D9CA8F4CB30B99C79F202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

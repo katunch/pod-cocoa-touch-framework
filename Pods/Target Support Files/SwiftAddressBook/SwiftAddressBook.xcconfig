@@ -1,0 +1,1 @@
+SWIFTADDRESSBOOK_OTHER_LDFLAGS = -framework "AddressBook" -framework "AddressBookUI"
